@@ -18,5 +18,10 @@ namespace WebApplication4
         {
             this.Label1.Text = DateTime.Now.ToString();
         }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            this.Label1.Text = DateTime.Now.ToString("yyyy/MM/dd");
+        }
     }
 }
